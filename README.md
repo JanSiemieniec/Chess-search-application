@@ -2,7 +2,7 @@
 The project aims to search for information about chess, including chess tournaments, players, and judges. It has been implemented in Java, with Hibernate being responsible for the database layer. The GUI and Hibernate aspects of the project are focused on the following classes: Person, Player, Judge, PlayerJudge, Man, Woman, PlayerCategory, ChessCategory, Tournament, Address, and PointsForPlace. 
 Please find below the project documentation along with a link to access the Graphical User Interface (GUI) representation.
 
-[GUI representation link](https://youtu.be/uebZdsUk9zw)
+[GUI representation video link](https://youtu.be/uebZdsUk9zw)
 
 Documentation:
 
