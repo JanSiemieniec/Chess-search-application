@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="angus-activation-2.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/angus-activation-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/antlr4-runtime-4.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/byte-buddy-1.12.18.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/classmate-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/hibernate-commons-annotations-6.0.6.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/hibernate-core-6.2.3.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/istack-commons-runtime-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/jakarta.activation-api-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/jakarta.inject-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/jakarta.persistence-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/jakarta.transaction-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/jakarta.xml.bind-api-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/jandex-3.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/jaxb-core-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/jaxb-runtime-4.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/jboss-logging-3.5.0.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate/txw2-4.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
