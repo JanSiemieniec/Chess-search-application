@@ -44,15 +44,15 @@ Documentation:
 ---
 <a name="1st"><h1>1. General information</h1></a>
 
-i. Problem domain
+### i. Problem domain
 
 Due to the recent surge in popularity of chess, there is a need for creating a system that would enable the search for information regarding chess tournaments, top players and judges.
 
-ii. Objective
+### ii. Objective
 
 The objective is to develop a system that enables users to search, add, and view detailed information about players, judges and tournaments. Additionally, the system should ensure the storage of this data and present it on the screen at selected moments.
 
-iii. System Scope of Responsibility
+### iii. System Scope of Responsibility
 
 The system should enable the management of data related to:
 
@@ -64,13 +64,13 @@ The system should enable the management of data related to:
 
 Proper access to individual data and their aggregations must be ensured. The system does not support tournament management in any way. Therefore, a separate system should be developed for that purpose.
 
-iv. System Users
+### iv. System Users
 
 The system will be utilized by players (including judges), the Polish Chess Federation (PZSZACH), and all unregistered guests interested in chess.
-***
-v. User Requirements
 
-### Part l
+### v. User Requirements
+
+Part l
 
 - The system should store information about Players and Judges, including their first name, last name, middle name (if applicable), gender (female or male). Additionally, for Players, their ranking (a natural number greater than 800) should be stored, while for Judges, the year of starting judging, years of experience, and minimum fee in PLN (currently set at 20, subject to change) should be included. It is possible for a Judge to also be a Player. This is a complete division.
 - The system should allow the storage of chess category information for individuals who possess it. The acquisition of a specific chess category should be confirmed by including the date of attainment.
@@ -79,9 +79,9 @@ v. User Requirements
 - Different ranking points are awarded based on the ranking and tournament placement.
 - Each game involves two chess players. The outcome of the game (victory for white/black, draw) as well as the game record are important. For each game, chess openings are recorded, including the name and description.
 
-###
 
-### Part ll
+
+Part ll
 
 - Displaying information about Players, Judges (Player, Judge, Guest).
 - Displaying the progress of a game (Player, Judge, Guest).
@@ -91,7 +91,7 @@ v. User Requirements
 - Assigning a Judge to a tournament (PZSZACH).
 - Adding a new Player or Judge (PZSZACH).
 
-### Part lll
+Part lll
 
 - Intuitiveness, clarity, and ease of use.
 - Accessibility and proper functioning of system features across different external devices.
@@ -106,7 +106,7 @@ Non-functional requirements for the system:
 - Data storage in a database
 - Ensuring data security.
 
-vi. Non-functional Requirements - Metrics
+### vi. Non-functional Requirements - Metrics
 
 | Constraint | Measurement |
 | --- | --- |
@@ -116,11 +116,11 @@ vi. Non-functional Requirements - Metrics
 | Data storage in a database | The database server should be h2-2.1.212 (or newer). |
 | Ensuring data security | Creation of backups according to a schedule, transactional data processing. |
 
-vii. Description of Future System Evolution
+### vii. Description of Future System Evolution
 
 In the future, there are plans to expand the system by incorporating a tournament management system, allowing for the organization and facilitation of chess tournaments. Additionally, there will be a feature to browse detailed information about individual games, including the ability to view the progress and moves made during each game.
 
-viii. Glossary of Domain Terms
+### viii. Glossary of Domain Terms
 
 | Term | Explanation |
 | --- | --- |
@@ -134,22 +134,29 @@ viii. Glossary of Domain Terms
 | PZSZACH | Polish Chess Federation. |
 ---
 <a name="2nd"><h1>2. Use Case Diagram</h1></a>
+![](lib/images/Use%20Case%20Diagram.png)
 ---
 <a name="3rd"><h1>3. Class Diagram - Analytical</h1></a>
+![](lib/images/Class%20Diagram%20-%20Analytical.png)
 ---
 <a name="4th"><h1>4. Class Diagram - Design</h1></a>
+![](lib/images/Class%20Diagram%20-%20Design.png)
 ---
 <a name="5th"><h1>5. Textual Use Case Scenario Description: "Add Tournament"</h1></a>
 
 This section provides a textual description of the use case scenario for adding a new tournament.
 
 After clicking the "Add" button in the tournament information display view, PZSZACH is redirected to a new window where they can manually enter the details of the new tournament. This includes the tournament name, address (country, city, street, building number, and optionally apartment number), start and end dates, prize amount, and the judge responsible for the tournament. Upon confirmation, if all the information is correct, a message is displayed confirming the successful addition of the new tournament to the database, and the user is returned to the previous window.
+
 ---
 <a name="6th"><h1>6. Activity Diagram for Use Case "Add Tournament"</h1></a>
+![](lib/images/Activity%20Diagram.png)
 ---
 <a name="7th"><h1>7. State Diagram for Class Tournament</h1></a>
+![](lib/images/State%20Diagram.png)
 ---
 <a name="8th"><h1>8. Interaction (Sequence) Diagram for Use Case „Add Tournament"</h1></a>
+![](lib/images/Interaction%20Diagram.png)
 ---
 <a name="9th"><h1>9. GUI Desing</h1></a>
 
