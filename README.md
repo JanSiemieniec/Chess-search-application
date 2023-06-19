@@ -161,22 +161,39 @@ After clicking the "Add" button in the tournament information display view, PZSZ
 <a name="9th"><h1>9. GUI Desing</h1></a>
 
 Main Screen
+
 ![](lib/images/MainScreen.png)
+
 Tournaments Search Screen
-![](lib/images/TournamentsSearchScreen.png)
+
+![](lib/images/TorunamentsSearchScreen.png)
+
 Tournament Addition Form
+
 ![](lib/images/TournamentAdditionForm.png)
+
 Successful Tournament Addition Message
-![](lib/images/TournamentAdditionMessage.png)
+
+![](lib/images/SuccessfulTournamentAdditionMessage.png)
+
 Tournament Information Display
+
 ![](lib/images/TournamentInformationDisplay.png)
+
 Message for Duplicate Tournament Name
+
 ![](lib/images/MessageForDuplicateTournamentName.png)
+
 Message for Invalid Start and End Dates
+
 ![](lib/images/MessageForInvalidStartAndEndDates.png)
+
 Message for Missing Data in the Form
+
 ![](lib/images/MessageForMissingDataInTheForm.png)
+
 Players and Judges Search Screen
+
 ![](lib/images/PlayersAndJudgesSearchScreen.png)
 
 ---
